@@ -54,9 +54,6 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [ki
 
 ---
 
-![Kitsune Idea](https://avatars.githubusercontent.com/u/{McKitsune}?s=128)
+![Kitsune Idea](https://avatars.githubusercontent.com/u/182821651?v=4)
 
 ¡Explora los proyectos y no dudes en contribuir!
-
-
-   
