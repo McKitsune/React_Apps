@@ -1,0 +1,261 @@
+/** Aqui Inicia el dark mode **/
+.light-mode {
+  background-color: white;
+  color: black;
+}
+
+.light-mode a {
+  color: blue;
+  /* Color de los enlaces en modo claro */
+}
+
+.dark-mode {
+  background: linear-gradient(135deg, #153347, #071014, #062c46);
+  color: white;
+}
+
+.dark-mode a {
+  color: #bb86fc;
+  /* Color de los enlaces en modo oscuro */
+}
+
+.dark-mode,
+.light-mode {
+  min-height: 100vh;
+  /* Mínimo 100% de la altura de la ventana */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* Centra verticalmente */
+  align-items: center;
+  /* Centra horizontalmente */
+  position: relative;
+}
+
+.toggle-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.mode-toggle-container {
+
+  top: 10px;
+  right: 10px;
+  display: inline-flex;
+  background-color: aliceblue;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 2px solid #ccc;
+  border-radius: 100%;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  position: fixed;
+  top: 20px;
+  /* Ajusta según necesites */
+  right: 20px;
+  /* Ajusta según necesites */
+  z-index: 1000;
+  /* Asegúrate de que esté encima de otros elementos */
+}
+
+.mode-toggle-container:hover {
+  background-color: rgba(0, 0, 0, 0.582);
+}
+
+.mode-toggle {
+  color: #38bdf8;
+}
+
+.mode-toggle:hover {
+  color: #ffffff;
+}
+
+/** Aqui termina el dark mode **/
+
+/** Aqui inicia estilo del logo **/
+.logo {
+  height: 11em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+
+.logo:hover {
+  filter: drop-shadow(0 0 2em #ffaa2baa);
+}
+
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+/** Aqui termina estilo del logo **/
+
+/** Aqui inicia estilo de la sombra en la portada **/
+.container {
+  border-radius: 30px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.616);
+  padding: 20px;
+  margin: 20px;
+  max-width: 800px;
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+/** Aqui termina estilo de la sombra en la portada **/
+
+/** Aqui inicia Estilos pagina Talleres **/
+.talleres-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.talleres-container>div {
+  flex: 1 1 calc(50% - 20px);
+  box-sizing: border-box;
+}
+
+.card1-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card1 {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 250px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+/** Aqui termina Estilos pagina Talleres **/
+
+/* Todo list */
+.icono-tarea {
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+}
+
+.no-tasks-message {
+  text-align: center;
+  font-size: 18px;
+  color: #535353;
+  font-weight: bold;
+  /* Cambié a font-weight */
+  padding-top: 70px;
+}
+
+.h2list {
+  padding-bottom: 50px;
+  text-shadow: 3px 2px 3px rgba(0, 0, 0, 0.3);
+}
+
+.task-input-container {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.task-input {
+  width: 500px;
+  margin-right: 5px;
+}
+
+.add-task-button {
+  cursor: pointer;
+}
+
+/* Contador */
+
+div.button-container {
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  /* Centra los botones horizontalmente */
+  margin-top: 20px;
+  /* Espacio opcional entre el contador y los botones */
+  gap: 50px;
+  padding: 30px;
+
+}
+
+.icon-button {
+  background: transparent;
+  border: none;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 40px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  font-size: 40px;
+  color: #38bdf8;
+  
+  overflow: hidden;
+  backdrop-filter: blur(15px);
+  
+}
+
+.icon-button:hover {
+  transform: scale(1.1);
+}
+
+.icon-button:focus {
+  outline: none;
+}
+
+/* Estilo para el mensaje de suma/resta */
+.message {
+
+  font-weight: bold;
+  padding-bottom: 90px;
+  padding-top: 30px;
+}
+
+element.style {
+  margin: 60px auto;
+  width: 85%;
+}
+
+/* Mouse Class */
+.mouse-tracker-container {
+  width: 80%;
+  margin: 20px auto;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+  padding: 20px;
+  border-radius: 30px;
+  display: flex; /* Usar flexbox */
+  flex-direction: column; /* Organizar los elementos en columna */
+  align-items: center; /* Centrar horizontalmente */
+  justify-content: center; /* Centrar verticalmente */
+}
+
+
+.mouse-tracker-container {
+  border: 1px solid #ccc; /* Para visualizar el contenedor */
+  position: relative;
+  height: 300px;
+  width: 80%; /* Ajusta según sea necesario */
+  margin: 20px auto; /* Centrar el contenedor */
+  overflow: hidden; /* Evitar desbordamiento */
+}
+
+.line {
+  transition: stroke-dasharray 0.9s ease, stroke-dashoffset 0.9s ease;
+  color: blueviolet;
+}
