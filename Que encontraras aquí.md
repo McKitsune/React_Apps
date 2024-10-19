@@ -54,7 +54,7 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [ki
 
 ---
 
-![Tu Logo](https://avatars.githubusercontent.com/u/{tu_id}?s=128)
+![Kitsune Idea](https://avatars.githubusercontent.com/u/{McKitsune}?s=128)
 
 ¡Explora los proyectos y no dudes en contribuir!
 
