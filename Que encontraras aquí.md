@@ -1,8 +1,8 @@
-# Proyectos en React
+# <h1 style="color: #4CAF50;">Proyectos en React</h1>
 
 Este repositorio contiene varias aplicaciones desarrolladas en React, cada una demostrando diferentes funcionalidades y técnicas. Todas están estilizadas utilizando CSS puro. A continuación, se detallan los proyectos incluidos:
 
-## 1. Contador de Clicks
+<h2 style="color: #4CAF50;">1. Contador de Clicks</h2>
 
 Esta aplicación permite al usuario contar la cantidad de clics realizados en un botón. Utiliza el estado de React para almacenar y actualizar el conteo de clics en tiempo real. Es una excelente manera de familiarizarse con la manipulación de eventos y el estado en React.
 
@@ -11,7 +11,7 @@ Esta aplicación permite al usuario contar la cantidad de clics realizados en un
 - Reinicia el contador con un botón adicional.
 - Diseño simple y limpio.
 
-## 2. Mouse Tracker (Coordenadas)
+<h2 style="color: #2196F3;">2. Mouse Tracker (Coordenadas)</h2>
 
 Esta aplicación muestra las coordenadas del mouse en tiempo real a medida que se mueve sobre un área específica de la pantalla. Este proyecto es útil para entender cómo React maneja los eventos del mouse y la actualización del estado.
 
@@ -20,7 +20,7 @@ Esta aplicación muestra las coordenadas del mouse en tiempo real a medida que s
 - Interfaz interactiva que responde al movimiento del mouse.
 - Estilos personalizados para mejorar la experiencia del usuario.
 
-## 3. Mouse Tracker (Con Hook)
+<h2 style="color: #FF9800;">3. Mouse Tracker (Con Hook)</h2>
 
 Similar al anterior, esta versión utiliza un custom hook de React para gestionar las coordenadas del mouse. Esto demuestra cómo se pueden crear hooks personalizados para reutilizar lógica en componentes.
 
@@ -29,7 +29,7 @@ Similar al anterior, esta versión utiliza un custom hook de React para gestiona
 - Ejemplo práctico de la creación de hooks personalizados.
 - Interfaz intuitiva y responsiva.
 
-## 4. Task List
+<h2 style="color: #9C27B0;">4. Task List</h2>
 
 Una aplicación de lista de tareas que permite a los usuarios agregar, eliminar y marcar tareas como completadas. Esta app es ideal para aprender sobre la gestión del estado y la manipulación de listas en React.
 
