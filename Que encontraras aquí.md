@@ -46,4 +46,17 @@ Para ejecutar cualquiera de estas aplicaciones, sigue estos pasos:
    ```bash
    git clone https://github.com/tu-usuario/tu-repositorio.git
 
+   ---
+
+## 📫 Contacto
+
+Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [kitsuneidea@gmail.com](mailto:kitsuneidea@gmail.com).
+
+---
+
+![Tu Logo](https://avatars.githubusercontent.com/u/{tu_id}?s=128)
+
+¡Explora los proyectos y no dudes en contribuir!
+
+
    
