@@ -54,6 +54,6 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactarme a través de [ki
 
 ---
 
-<img src="https://avatars.githubusercontent.com/u/182821651?v=4" alt="Kitsune Idea" width=60"/>
+<img src="https://avatars.githubusercontent.com/u/182821651?v=4" alt="Kitsune Idea" width="60"/>¡Explora los proyectos y no dudes en contribuir!
 
-¡Explora los proyectos y no dudes en contribuir!
+
